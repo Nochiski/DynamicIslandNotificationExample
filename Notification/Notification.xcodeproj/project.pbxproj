@@ -14,6 +14,7 @@
 		E23E6A2B2AF09EBA00AE11DB /* NotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E6A2A2AF09EBA00AE11DB /* NotificationTests.swift */; };
 		E23E6A352AF09EBA00AE11DB /* NotificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E6A342AF09EBA00AE11DB /* NotificationUITests.swift */; };
 		E23E6A372AF09EBA00AE11DB /* NotificationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E6A362AF09EBA00AE11DB /* NotificationUITestsLaunchTests.swift */; };
+		E23E6A452AF09F6C00AE11DB /* InAppNotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E6A442AF09F6C00AE11DB /* InAppNotificationExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E23E6A302AF09EBA00AE11DB /* NotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23E6A342AF09EBA00AE11DB /* NotificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationUITests.swift; sourceTree = "<group>"; };
 		E23E6A362AF09EBA00AE11DB /* NotificationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E23E6A442AF09F6C00AE11DB /* InAppNotificationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppNotificationExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		E23E6A182AF09EB700AE11DB /* Notification */ = {
 			isa = PBXGroup;
 			children = (
+				E23E6A432AF09F2400AE11DB /* Helper */,
 				E23E6A192AF09EB700AE11DB /* NotificationApp.swift */,
 				E23E6A1B2AF09EB700AE11DB /* ContentView.swift */,
 				E23E6A1D2AF09EB900AE11DB /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				E23E6A362AF09EBA00AE11DB /* NotificationUITestsLaunchTests.swift */,
 			);
 			path = NotificationUITests;
+			sourceTree = "<group>";
+		};
+		E23E6A432AF09F2400AE11DB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E23E6A442AF09F6C00AE11DB /* InAppNotificationExtension.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				E23E6A1C2AF09EB700AE11DB /* ContentView.swift in Sources */,
 				E23E6A1A2AF09EB700AE11DB /* NotificationApp.swift in Sources */,
+				E23E6A452AF09F6C00AE11DB /* InAppNotificationExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
